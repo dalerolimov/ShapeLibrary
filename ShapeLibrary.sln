@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeLibrary", "ShapeLibrary\ShapeLibrary.csproj", "{B9F8732D-76A3-4681-8E2E-0BA07BA74E0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{391029F0-389A-4709-90D2-F509728F8FBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeLibrary.Tests", "Tests\ShapeLibrary.Tests\ShapeLibrary.Tests.csproj", "{9976178F-3F10-49C0-8B99-498AF4F1D65E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9F8732D-76A3-4681-8E2E-0BA07BA74E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9F8732D-76A3-4681-8E2E-0BA07BA74E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9F8732D-76A3-4681-8E2E-0BA07BA74E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9F8732D-76A3-4681-8E2E-0BA07BA74E0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9976178F-3F10-49C0-8B99-498AF4F1D65E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9976178F-3F10-49C0-8B99-498AF4F1D65E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9976178F-3F10-49C0-8B99-498AF4F1D65E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9976178F-3F10-49C0-8B99-498AF4F1D65E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9976178F-3F10-49C0-8B99-498AF4F1D65E} = {391029F0-389A-4709-90D2-F509728F8FBF}
+	EndGlobalSection
+EndGlobal
